@@ -2,12 +2,8 @@
 #define	MATH_3D_H
 
 #include <stdio.h>
-#ifdef WIN32
-#define _USE_MATH_DEFINES 
-#include <cmath>
-#else
 #include <math.h>
-#endif
+#define M_PI 3.14
 
 #define ToRadian(x) (float)(((x) * M_PI / 180.0f))
 #define ToDegree(x) (float)(((x) * 180.0f / M_PI))

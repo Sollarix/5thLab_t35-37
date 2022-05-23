@@ -159,8 +159,6 @@
     <ClInclude Include="glut_backend.h" />
     <ClInclude Include="math_3d.h" />
     <ClInclude Include="mesh.h" />
-    <ClInclude Include="ogldev_types.h" />
-    <ClInclude Include="ogldev_util.h" />
     <ClInclude Include="pipeline.h" />
     <ClInclude Include="technique.h" />
     <ClInclude Include="texture.h" />

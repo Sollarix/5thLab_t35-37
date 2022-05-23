@@ -10,9 +10,6 @@
 #include "ds_geom_pass_tech.h"
 #include "glut_backend.h"
 #include "mesh.h"
-#ifdef FREETYPE
-#include "freetypeGL.h"
-#endif
 #include "gbuffer.h"
 
 using namespace std;
